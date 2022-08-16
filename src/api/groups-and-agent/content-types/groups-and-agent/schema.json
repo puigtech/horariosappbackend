@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "groups_and_agents",
+  "info": {
+    "singularName": "groups-and-agent",
+    "pluralName": "groups-and-agents",
+    "displayName": "GROUPS AND AGENTS"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "agents": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::agent.agent"
+    },
+    "group": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::group.group"
+    },
+    "available": {
+      "type": "boolean"
+    },
+    "rules_day": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::rule-day.rule-day"
+    },
+    "rules_hour": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::rule-hour.rule-hour"
+    },
+    "observations": {
+      "type": "richtext"
+    }
+  }
+}

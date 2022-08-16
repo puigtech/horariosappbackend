@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rules_hours",
+  "info": {
+    "singularName": "rule-hour",
+    "pluralName": "rules-hours",
+    "displayName": "RULES HOURS"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "time_from": {
+      "type": "time"
+    },
+    "time_to": {
+      "type": "time"
+    },
+    "observations": {
+      "type": "richtext"
+    }
+  }
+}

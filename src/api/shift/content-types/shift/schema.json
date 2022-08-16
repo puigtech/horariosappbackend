@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shifts",
+  "info": {
+    "singularName": "shift",
+    "pluralName": "shifts",
+    "displayName": "SHIFTS"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "time_from": {
+      "type": "time"
+    },
+    "time_to": {
+      "type": "time"
+    },
+    "type_of_shift": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::type-of-shift.type-of-shift"
+    },
+    "lunch_time": {
+      "type": "integer"
+    },
+    "observations": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "schedules_day_turns",
+  "info": {
+    "singularName": "schedules-day-turn",
+    "pluralName": "schedules-day-turns",
+    "displayName": "SCHEDULES DAY TURN",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "schedule": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::schedule.schedule",
+      "inversedBy": "schedules_day_turn"
+    },
+    "shift": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::shift.shift",
+      "inversedBy": "schedules_day_turn"
+    }
+  }
+}

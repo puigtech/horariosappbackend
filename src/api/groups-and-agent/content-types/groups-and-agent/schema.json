@@ -4,7 +4,8 @@
   "info": {
     "singularName": "groups-and-agent",
     "pluralName": "groups-and-agents",
-    "displayName": "GROUPS AND AGENTS"
+    "displayName": "GROUPS AND AGENTS",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -39,6 +40,11 @@
     },
     "observations": {
       "type": "richtext"
+    },
+    "place": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::place.place"
     }
   }
 }

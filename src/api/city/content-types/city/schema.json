@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "groups",
+  "collectionName": "cities",
   "info": {
-    "singularName": "group",
-    "pluralName": "groups",
-    "displayName": "GROUPS",
-    "description": ""
+    "singularName": "city",
+    "pluralName": "cities",
+    "displayName": "CITIES"
   },
   "options": {
     "draftAndPublish": true
@@ -18,16 +17,13 @@
     "internal_code": {
       "type": "string"
     },
-    "max_agents": {
-      "type": "integer"
-    },
     "observations": {
       "type": "richtext"
     },
-    "area": {
+    "region": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::area.area"
+      "target": "api::region.region"
     }
   }
 }

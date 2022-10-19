@@ -34,6 +34,21 @@
     },
     "observations": {
       "type": "richtext"
+    },
+    "coordinator": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::coordinator.coordinator"
+    },
+    "city": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::city.city"
+    },
+    "type_of_agent": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::type-of-agent.type-of-agent"
     }
   }
 }

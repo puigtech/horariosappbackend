@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "groups",
+  "collectionName": "places",
   "info": {
-    "singularName": "group",
-    "pluralName": "groups",
-    "displayName": "GROUPS",
+    "singularName": "place",
+    "pluralName": "places",
+    "displayName": "places",
     "description": ""
   },
   "options": {
@@ -18,11 +18,13 @@
     "internal_code": {
       "type": "string"
     },
-    "max_agents": {
-      "type": "integer"
-    },
     "observations": {
       "type": "richtext"
+    },
+    "city": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::city.city"
     },
     "area": {
       "type": "relation",

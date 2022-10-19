@@ -11,9 +11,10 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.3.3",
-    "@strapi/plugin-users-permissions": "4.3.3",
     "@strapi/plugin-i18n": "4.3.3",
+    "@strapi/plugin-users-permissions": "4.3.3",
+    "@strapi/strapi": "4.3.3",
+    "cross-env": "^7.0.3",
     "mysql": "2.18.1"
   },
   "author": {

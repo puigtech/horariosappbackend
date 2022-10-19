@@ -4,7 +4,8 @@
   "info": {
     "singularName": "type-of-shift",
     "pluralName": "type-of-shifts",
-    "displayName": "TYPE OF SHIFTS"
+    "displayName": "TYPE OF SHIFTS",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,30 @@
     },
     "observations": {
       "type": "richtext"
+    },
+    "monday": {
+      "type": "boolean"
+    },
+    "tuesday": {
+      "type": "boolean"
+    },
+    "wednesday": {
+      "type": "boolean"
+    },
+    "thursday": {
+      "type": "boolean"
+    },
+    "friday": {
+      "type": "boolean"
+    },
+    "saturday": {
+      "type": "boolean"
+    },
+    "sunday": {
+      "type": "boolean"
+    },
+    "holiday": {
+      "type": "boolean"
     }
   }
 }

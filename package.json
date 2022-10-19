@@ -2,7 +2,7 @@
   "name": "horarios-strapi-mysql-js",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "NL App de Horarios",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -18,7 +18,7 @@
     "mysql": "2.18.1"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Guillermo Puig"
   },
   "strapi": {
     "uuid": "bca969de-1cde-48ee-94fc-297910ccd41b"

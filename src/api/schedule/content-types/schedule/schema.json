@@ -24,11 +24,8 @@
     "internal_code": {
       "type": "string"
     },
-    "schedules_day_turn": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::schedules-day-turn.schedules-day-turn",
-      "mappedBy": "schedule"
+    "production": {
+      "type": "boolean"
     }
   }
 }

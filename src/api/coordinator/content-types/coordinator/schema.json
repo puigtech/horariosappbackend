@@ -4,7 +4,8 @@
   "info": {
     "singularName": "coordinator",
     "pluralName": "coordinators",
-    "displayName": "coordinators"
+    "displayName": "coordinators",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -28,6 +29,11 @@
     },
     "phone": {
       "type": "string"
+    },
+    "area": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::area.area"
     }
   }
 }

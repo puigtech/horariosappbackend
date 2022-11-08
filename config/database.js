@@ -8,6 +8,7 @@ module.exports = ({ env }) => ({
       user: env('DATABASE_USERNAME', 'gpuig'),
       password: env('DATABASE_PASSWORD', 'GpUiG_201197'),
       ssl: env.bool('DATABASE_SSL', false),
+      
     },
   },
 });

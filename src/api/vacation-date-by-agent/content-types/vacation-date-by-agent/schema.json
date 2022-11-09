@@ -4,7 +4,8 @@
   "info": {
     "singularName": "vacation-date-by-agent",
     "pluralName": "vacation-date-by-agents",
-    "displayName": "vacation date by agent"
+    "displayName": "vacation date by agent",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -27,6 +28,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::agent.agent"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "deleted": {
+      "type": "boolean"
     }
   }
 }

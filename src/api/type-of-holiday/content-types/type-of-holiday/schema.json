@@ -4,7 +4,8 @@
   "info": {
     "singularName": "type-of-holiday",
     "pluralName": "type-of-holidays",
-    "displayName": "TYPE OF HOLIDAYS"
+    "displayName": "TYPE OF HOLIDAYS",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,12 @@
     },
     "observations": {
       "type": "richtext"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "deleted": {
+      "type": "boolean"
     }
   }
 }

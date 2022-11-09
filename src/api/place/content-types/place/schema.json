@@ -30,6 +30,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::area.area"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "deleted": {
+      "type": "boolean"
     }
   }
 }

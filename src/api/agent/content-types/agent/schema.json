@@ -49,6 +49,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::type-of-agent.type-of-agent"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "deleted": {
+      "type": "boolean"
     }
   }
 }

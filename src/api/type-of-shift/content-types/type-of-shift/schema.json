@@ -44,6 +44,12 @@
     },
     "holiday": {
       "type": "boolean"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "deleted": {
+      "type": "boolean"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "unavailable-dates-by-agent",
     "pluralName": "unavailable-dates-by-agents",
-    "displayName": "unavailable dates by agent"
+    "displayName": "unavailable dates by agent",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,6 +25,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::agent.agent"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "deleted": {
+      "type": "boolean"
     }
   }
 }

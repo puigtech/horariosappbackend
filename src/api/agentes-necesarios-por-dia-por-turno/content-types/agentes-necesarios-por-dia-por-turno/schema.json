@@ -4,7 +4,8 @@
   "info": {
     "singularName": "agentes-necesarios-por-dia-por-turno",
     "pluralName": "agentes-necesarios-por-dia-por-turnos",
-    "displayName": "AGENTES NECESARIOS POR DIA POR TURNO"
+    "displayName": "AGENTES NECESARIOS POR DIA POR TURNO",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,6 +25,12 @@
     },
     "observations": {
       "type": "richtext"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "deleted": {
+      "type": "boolean"
     }
   }
 }

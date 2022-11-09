@@ -4,7 +4,8 @@
   "info": {
     "singularName": "area",
     "pluralName": "areas",
-    "displayName": "AREAS"
+    "displayName": "AREAS",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,12 @@
     },
     "observations": {
       "type": "richtext"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "deleted": {
+      "type": "boolean"
     }
   }
 }

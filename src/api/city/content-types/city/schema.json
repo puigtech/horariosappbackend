@@ -4,7 +4,8 @@
   "info": {
     "singularName": "city",
     "pluralName": "cities",
-    "displayName": "CITIES"
+    "displayName": "CITIES",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,6 +25,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::region.region"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "deleted": {
+      "type": "boolean"
     }
   }
 }

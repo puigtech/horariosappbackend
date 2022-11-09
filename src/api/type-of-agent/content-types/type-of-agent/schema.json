@@ -4,7 +4,8 @@
   "info": {
     "singularName": "type-of-agent",
     "pluralName": "type-of-agents",
-    "displayName": "TYPE OF AGENTS"
+    "displayName": "TYPE OF AGENTS",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,12 @@
     },
     "observations": {
       "type": "richtext"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "deleted": {
+      "type": "boolean"
     }
   }
 }

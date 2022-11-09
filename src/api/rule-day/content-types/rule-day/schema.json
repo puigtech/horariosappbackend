@@ -4,7 +4,8 @@
   "info": {
     "singularName": "rule-day",
     "pluralName": "rules-days",
-    "displayName": "RULES DAYS"
+    "displayName": "RULES DAYS",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -37,6 +38,12 @@
     },
     "observations": {
       "type": "richtext"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "deleted": {
+      "type": "boolean"
     }
   }
 }

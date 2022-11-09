@@ -4,7 +4,8 @@
   "info": {
     "singularName": "configuracion-horas-nocturna",
     "pluralName": "configuracion-horas-nocturnas",
-    "displayName": "CONFIGURACION HORAS NOCTURNAS"
+    "displayName": "CONFIGURACION HORAS NOCTURNAS",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,6 +22,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::area.area"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "deleted": {
+      "type": "boolean"
     }
   }
 }

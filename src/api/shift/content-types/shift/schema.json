@@ -42,6 +42,12 @@
     },
     "num_agentes_necesarios": {
       "type": "integer"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "deleted": {
+      "type": "boolean"
     }
   }
 }

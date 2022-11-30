@@ -40,6 +40,12 @@
     },
     "deleted": {
       "type": "boolean"
+    },
+    "password": {
+      "type": "password"
+    },
+    "login_nl": {
+      "type": "boolean"
     }
   }
 }

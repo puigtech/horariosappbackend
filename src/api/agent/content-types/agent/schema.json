@@ -27,7 +27,7 @@
     "phone": {
       "type": "string"
     },
-    "areas": {
+    "area": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::area.area"

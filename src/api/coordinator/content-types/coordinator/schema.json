@@ -46,6 +46,9 @@
     },
     "login_nl": {
       "type": "boolean"
+    },
+    "username": {
+      "type": "string"
     }
   }
 }

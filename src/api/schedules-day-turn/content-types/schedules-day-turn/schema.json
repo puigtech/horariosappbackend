@@ -38,6 +38,20 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::groups-and-agent.groups-and-agent"
+    },
+    "lunch_time": {
+      "type": "integer"
+    },
+    "velada": {
+      "type": "boolean"
+    },
+    "horas_extras": {
+      "type": "boolean"
+    },
+    "place": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::place.place"
     }
   }
 }

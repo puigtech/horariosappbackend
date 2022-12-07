@@ -4,7 +4,8 @@
   "info": {
     "singularName": "isabel-call-base",
     "pluralName": "isabel-call-bases",
-    "displayName": "ISABEL CALL BASE"
+    "displayName": "ISABEL CALL BASE",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -39,6 +40,17 @@
       "type": "integer"
     },
     "cobranzas_5903_abandonadas": {
+      "type": "integer"
+    },
+    "area": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::area.area"
+    },
+    "manejadas": {
+      "type": "integer"
+    },
+    "abandonadas": {
       "type": "integer"
     }
   }

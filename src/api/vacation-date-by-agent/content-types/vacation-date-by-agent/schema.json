@@ -35,10 +35,10 @@
     "deleted": {
       "type": "boolean"
     },
-    "area": {
+    "site": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::area.area"
+      "target": "api::site.site"
     }
   }
 }

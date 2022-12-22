@@ -55,6 +55,11 @@
     },
     "deleted": {
       "type": "boolean"
+    },
+    "site": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::site.site"
     }
   }
 }

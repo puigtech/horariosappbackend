@@ -33,10 +33,15 @@
     "deleted": {
       "type": "boolean"
     },
-    "area": {
+    "site": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::area.area"
+      "target": "api::site.site"
+    },
+    "coordinator": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::coordinator.coordinator"
     }
   }
 }

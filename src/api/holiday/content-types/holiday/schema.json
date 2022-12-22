@@ -31,11 +31,6 @@
     },
     "deleted": {
       "type": "boolean"
-    },
-    "area": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::area.area"
     }
   }
 }

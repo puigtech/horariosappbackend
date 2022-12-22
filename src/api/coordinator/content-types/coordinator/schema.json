@@ -30,11 +30,6 @@
     "phone": {
       "type": "string"
     },
-    "area": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::area.area"
-    },
     "active": {
       "type": "boolean"
     },
@@ -49,6 +44,11 @@
     },
     "username": {
       "type": "string"
+    },
+    "sites": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::site.site"
     }
   }
 }

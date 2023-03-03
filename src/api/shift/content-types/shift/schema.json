@@ -53,6 +53,41 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::site.site"
+    },
+    "type_of_agents": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::type-of-agent.type-of-agent"
+    },
+    "soporte": {
+      "type": "boolean"
+    },
+    "color": {
+      "type": "string"
+    },
+    "monday_num_agents": {
+      "type": "integer"
+    },
+    "tuesday_num_agents": {
+      "type": "integer"
+    },
+    "wednesday_num_agents": {
+      "type": "integer"
+    },
+    "thursday_num_agents": {
+      "type": "integer"
+    },
+    "friday_num_agents": {
+      "type": "integer"
+    },
+    "saturday_num_agents": {
+      "type": "integer"
+    },
+    "sunday_num_agents": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
     }
   }
 }

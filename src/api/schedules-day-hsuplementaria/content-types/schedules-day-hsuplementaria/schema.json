@@ -4,7 +4,8 @@
   "info": {
     "singularName": "schedules-day-hsuplementaria",
     "pluralName": "schedules-day-hsuplementarias",
-    "displayName": "SCHEDULES DAY HSUPLEMENTARIAS"
+    "displayName": "SCHEDULES DAY HSUPLEMENTARIAS",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -35,6 +36,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::groups-and-agent.groups-and-agent"
+    },
+    "agents": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::agent.agent"
     }
   }
 }

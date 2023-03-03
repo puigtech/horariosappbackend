@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "sites",
+  "collectionName": "tipo_standbies",
   "info": {
-    "singularName": "site",
-    "pluralName": "sites",
-    "displayName": "SITES",
-    "description": ""
+    "singularName": "tipo-standby",
+    "pluralName": "tipo-standbies",
+    "displayName": "TIPO STANDBY"
   },
   "options": {
     "draftAndPublish": true
@@ -15,24 +14,25 @@
     "name": {
       "type": "string"
     },
+    "order": {
+      "type": "integer"
+    },
     "internal_code": {
       "type": "string"
     },
     "observations": {
-      "type": "text"
+      "type": "richtext"
+    },
+    "site": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::site.site"
     },
     "active": {
       "type": "boolean"
     },
     "deleted": {
       "type": "boolean"
-    },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "modo_1",
-        "modo_2"
-      ]
     }
   }
 }

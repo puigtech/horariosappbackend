@@ -49,6 +49,9 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::site.site"
+    },
+    "access_system": {
+      "type": "boolean"
     }
   }
 }

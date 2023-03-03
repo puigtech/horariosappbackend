@@ -52,6 +52,23 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::place.place"
+    },
+    "agents": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::agent.agent"
+    },
+    "soporte": {
+      "type": "boolean"
+    },
+    "color": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "holiday": {
+      "type": "boolean"
     }
   }
 }

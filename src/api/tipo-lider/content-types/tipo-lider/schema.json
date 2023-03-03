@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "sites",
+  "collectionName": "tipo_liders",
   "info": {
-    "singularName": "site",
-    "pluralName": "sites",
-    "displayName": "SITES",
-    "description": ""
+    "singularName": "tipo-lider",
+    "pluralName": "tipo-liders",
+    "displayName": "TIPO LIDER"
   },
   "options": {
     "draftAndPublish": true
@@ -18,21 +17,22 @@
     "internal_code": {
       "type": "string"
     },
+    "order": {
+      "type": "integer"
+    },
     "observations": {
-      "type": "text"
+      "type": "richtext"
+    },
+    "site": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::site.site"
     },
     "active": {
       "type": "boolean"
     },
     "deleted": {
       "type": "boolean"
-    },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "modo_1",
-        "modo_2"
-      ]
     }
   }
 }
